@@ -1,0 +1,6 @@
+# export .gitattributes import aonekoaoi.github.io
+
+LICENSE.txt eol=crlf
+LICENSE_ja.txt eol=crlf
+
+settings.json linguist-language=jsonc
