@@ -1,0 +1,116 @@
+{
+  // Cascading Style Sheets
+  "[css]": {
+    // 貼り付けた内容がエディターにより自動的にフォーマットされるかどうかを制御する
+    "editor.formatOnPaste": true,
+    // ファイルを保存するときにフォーマットする
+    "editor.formatOnSave": true,
+    // エディターで入力後に自動的に行のフォーマットを行うかどうかを制御する
+    "editor.formatOnType": true,
+    // コードフォーマッター - Prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 1つのタブに相当するスペースの数
+    "editor.tabSize": 2,
+    // 既定の改行文字
+    "files.eol": "\n",
+    // ファイルの保存時に改行を末尾に挿入
+    "files.insertFinalNewline": true,
+    // ファイルの保存時に最終行以降の新しい行をトリミングする
+    "files.trimFinalNewlines": true
+  },
+  // HyperText Markup Language
+  "[html]": {
+    // 貼り付けた内容がエディターにより自動的にフォーマットされるかどうかを制御する
+    "editor.formatOnPaste": true,
+    // ファイルを保存するときにフォーマットする
+    "editor.formatOnSave": true,
+    // エディターで入力後に自動的に行のフォーマットを行うかどうかを制御する
+    "editor.formatOnType": true,
+    // コードフォーマッター - Prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 1つのタブに相当するスペースの数
+    "editor.tabSize": 2,
+    // 既定の改行文字
+    "files.eol": "\n",
+    // ファイルの保存時に改行を末尾に挿入
+    "files.insertFinalNewline": true,
+    // ファイルの保存時に最終行以降の新しい行をトリミングする
+    "files.trimFinalNewlines": true
+  },
+  // Javascript
+  "[javascript]": {
+    // 貼り付けた内容がエディターにより自動的にフォーマットされるかどうかを制御する
+    "editor.formatOnPaste": true,
+    // ファイルを保存するときにフォーマットする
+    "editor.formatOnSave": true,
+    // エディターで入力後に自動的に行のフォーマットを行うかどうかを制御する
+    "editor.formatOnType": true,
+    // コードフォーマッター - Prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 1つのタブに相当するスペースの数
+    "editor.tabSize": 2,
+    // 既定の改行文字
+    "files.eol": "\n",
+    // ファイルの保存時に改行を末尾に挿入
+    "files.insertFinalNewline": true,
+    // ファイルの保存時に最終行以降の新しい行をトリミングする
+    "files.trimFinalNewlines": true
+  },
+  // JavaScript Object Notation with Comments
+  "[jsonc]": {
+    // 貼り付けた内容がエディターにより自動的にフォーマットされるかどうかを制御する
+    "editor.formatOnPaste": true,
+    // ファイルを保存するときにフォーマットする
+    "editor.formatOnSave": true,
+    // エディターで入力後に自動的に行のフォーマットを行うかどうかを制御する
+    "editor.formatOnType": true,
+    // コードフォーマッター - Prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 1つのタブに相当するスペースの数
+    "editor.tabSize": 2,
+    // 既定の改行文字
+    "files.eol": "\n",
+    // ファイルの保存時に改行を末尾に挿入
+    "files.insertFinalNewline": true,
+    // ファイルの保存時に最終行以降の新しい行をトリミングする
+    "files.trimFinalNewlines": true
+  },
+  // Markdown
+  "[markdown]": {
+    // 貼り付けた内容がエディターにより自動的にフォーマットされるかどうかを制御する
+    "editor.formatOnPaste": true,
+    // ファイルを保存するときにフォーマットする
+    "editor.formatOnSave": true,
+    // エディターで入力後に自動的に行のフォーマットを行うかどうかを制御する
+    "editor.formatOnType": true,
+    // コードフォーマッター - Prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // 1つのタブに相当するスペースの数
+    "editor.tabSize": 4,
+    // 既定の改行文字
+    "files.eol": "\n",
+    // ファイルの保存時に改行を末尾に挿入
+    "files.insertFinalNewline": true,
+    // ファイルの保存時に最終行以降の新しい行をトリミングする
+    "files.trimFinalNewlines": true
+  },
+  // YAML Ain't Markup Language
+  "[yaml]": {
+    // 貼り付けた内容がエディターにより自動的にフォーマットされるかどうかを制御する
+    "editor.formatOnPaste": true,
+    // ファイルを保存するときにフォーマットする
+    "editor.formatOnSave": true,
+    // エディターで入力後に自動的に行のフォーマットを行うかどうかを制御する
+    "editor.formatOnType": true,
+    // コードフォーマッター - YAML
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    // 1つのタブに相当するスペースの数
+    "editor.tabSize": 2,
+    // 既定の改行文字
+    "files.eol": "\n",
+    // ファイルの保存時に改行を末尾に挿入
+    "files.insertFinalNewline": true,
+    // ファイルの保存時に最終行以降の新しい行をトリミングする
+    "files.trimFinalNewlines": true
+  }
+}
