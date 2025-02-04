@@ -1,0 +1,67 @@
+name: Document Request
+description: ドキュメントリクエストはこちらから
+labels: ["Priority: Low / 優先度：低", "Type: Document / タイプ：ドキュメント"]
+
+title: "Document: "
+body:
+  - type: checkboxes
+    id: would-you-tackle-this-issue
+    attributes:
+      label: Would you tackle this Issue?
+      description: この Issue にあなたが取り組みますか？
+      options:
+        - label: Yes, it would.
+
+  - type: checkboxes
+    id: have-you-viewed-readme
+    attributes:
+      label: Have you viewed README.md?
+      description: "[README.md](https://github.com/aonekoaoi/aonekoaoi.github.io/blob/main/README.md) を読みましたか？"
+      options:
+        - label: Yes, it have.
+          required: true
+
+  - type: checkboxes
+    id: was-your-document-request-not-in-issue
+    attributes:
+      label: Was your document request not in Issue?
+      description: "[Issue](https://github.com/aonekoaoi/aonekoaoi.github.io/labels/Type%3A%20Document%20%2F%20%E3%82%BF%E3%82%A4%E3%83%97%EF%BC%9A%E3%83%89%E3%82%AD%E3%83%A5%E3%83%A1%E3%83%B3%E3%83%88) に同じ内容の投稿はありませんでしたか？"
+      options:
+        - label: Yes, it was.
+          required: true
+
+  - type: dropdown
+    id: refactoring-to-documentation
+    attributes:
+      label: Refactoring to documentation?
+      description: ドキュメントのリファクタリングですか？
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: addition-or-correction-to-documentation
+    attributes:
+      label: Addition or correction to documentation?
+      description: ドキュメントの追加または修正ですか？
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: ドキュメントのリファクタリングや文章の追加または修正の概要を詳しく記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: Additional Comments
+      description: 追加の補足等があれば記載してください。

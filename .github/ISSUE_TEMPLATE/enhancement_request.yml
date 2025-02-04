@@ -1,0 +1,50 @@
+name: Enhancement Request
+description: 機能強化リクエストはこちらから
+labels:
+  [
+    "Feedback: Suggestion / フィードバック：提案",
+    "Priority: Medium / 優先度：中",
+    "Type: Enhancement / タイプ：機能強化",
+  ]
+
+title: "Enhancement: "
+body:
+  - type: checkboxes
+    id: would-you-tackle-this-issue
+    attributes:
+      label: Would you tackle this Issue?
+      description: この Issue にあなたが取り組みますか？
+      options:
+        - label: Yes, it would.
+
+  - type: checkboxes
+    id: have-you-viewed-readme
+    attributes:
+      label: Have you viewed README.md?
+      description: "[README.md](https://github.com/aonekoaoi/aonekoaoi.github.io/blob/main/README.md) を読みましたか？"
+      options:
+        - label: Yes, it have.
+          required: true
+
+  - type: checkboxes
+    id: was-your-enhancement-request-not-in-issue
+    attributes:
+      label: Was your enhancement request not in Issue?
+      description: "[Issue](https://github.com/aonekoaoi/aonekoaoi.github.io/labels/Type%3A%20Enhancement%20%2F%20%E3%82%BF%E3%82%A4%E3%83%97%EF%BC%9A%E6%A9%9F%E8%83%BD%E5%BC%B7%E5%8C%96) に同じ内容の投稿はありませんでしたか？"
+      options:
+        - label: Yes, it was.
+          required: true
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: 機能強化の概要を詳しく記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: Additional Comments
+      description: 追加の補足等があれば記載してください。

@@ -1,0 +1,45 @@
+name: Fix Request
+description: 修正リクエストはこちらから
+labels: ["Priority: High / 優先度：高", "Type: Fix / タイプ：修正"]
+
+title: "Fix: "
+body:
+  - type: checkboxes
+    id: would-you-tackle-this-issue
+    attributes:
+      label: Would you tackle this Issue?
+      description: この Issue にあなたが取り組みますか？
+      options:
+        - label: Yes, it would.
+
+  - type: checkboxes
+    id: have-you-viewed-readme
+    attributes:
+      label: Have you viewed README.md?
+      description: "[README.md](https://github.com/aonekoaoi/aonekoaoi.github.io/blob/main/README.md) を読みましたか？"
+      options:
+        - label: Yes, it have.
+          required: true
+
+  - type: checkboxes
+    id: was-your-fix-request-not-in-issue
+    attributes:
+      label: Was your fix request not in Issue?
+      description: "[Issue](https://github.com/aonekoaoi/aonekoaoi.github.io/labels/Type%3A%20Fix%20%2F%20%E3%82%BF%E3%82%A4%E3%83%97%EF%BC%9A%E4%BF%AE%E6%AD%A3) に同じ内容の投稿はありませんでしたか？"
+      options:
+        - label: Yes, it was.
+          required: true
+
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: 修正の概要を詳しく記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-comments
+    attributes:
+      label: Additional Comments
+      description: 追加の補足等があれば記載してください。
